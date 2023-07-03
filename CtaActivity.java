@@ -141,12 +141,13 @@ class Grade extends JFrame implements ActionListener {
 				System.exit(0);
 				;
 			}
-			see = Math.ceil(see / 2);
+			//see = Math.ceil(see / 2);
 			if (see < 38) {
 				JOptionPane.showMessageDialog(this, "STUDENT HAS FAILED IN SEE AND OBTAINED GRADE IS F", "message",
 						JOptionPane.PLAIN_MESSAGE);
 				System.exit(0);
 			}
+			see = Math.ceil(see / 2);
 
 			r += see;
 
